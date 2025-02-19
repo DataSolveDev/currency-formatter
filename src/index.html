@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Currency</title>
+</head>
+<body>
+<div class="hero bg-base-200 min-h-screen">
+    <div class="hero-content flex-col lg:flex-row-reverse">
+        <div class="text-center lg:text-left">
+            <h1 class="text-5xl font-bold">Currency formatter JS!</h1>
+            <p class="py-6">
+                lightweight and efficient JavaScript library designed to simplify currency and decimal input formatting.
+                With real-time formatting, customizable decimal precision, and support for multiple currency symbols,
+                this library ensures a seamless user experience across web applications.
+            </p>
+        </div>
+        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+            <form class="card-body">
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Decimal</span>
+                    </label>
+                    <input type="text" class="input decimal input-bordered" required/>
+                </div>
+                <div class="form-control">
+                    <label class="label">
+                        <span class="label-text">Currency</span>
+                    </label>
+                    <input type="text" class="input currency input-bordered" required/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
